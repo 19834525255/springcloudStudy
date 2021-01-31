@@ -38,7 +38,7 @@ public class PaymentController {
             return new CommonResult(200,"插入成功serverPort: "+serverPort,i);
 
         } else {
-            return new CommonResult(444,"插入失败",null);
+            return new CommonResult(444,"插入失败0",null);
         }
     }
 
